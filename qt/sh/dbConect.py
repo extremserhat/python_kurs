@@ -1,10 +1,10 @@
 #!/bin/env python3.11 
 import psycopg2
 
-hostname = '81.169.184.25'
-database = 'template0'
-username = 'postgres'
-pwd = 'admin'
+hostname = 'xxxxxxxx'
+database = 'xxxxxxxxx'
+username = 'xxxxxxxxx'
+pwd = 'xxxx'
 port_id = 5432
 conn = None
 cur = None
