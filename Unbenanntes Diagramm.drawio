@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-19T08:51:58.245Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="3NXt7DCF8K-ehCJ92UCE" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-19T09:03:00.180Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="oRHoM-NBG1QmZfyIgNrD" version="21.0.6" type="github">
   <diagram name="Seite-1" id="2JQeOwLGVFZUsmmgGHX2">
     <mxGraphModel dx="1400" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,7 +24,7 @@
         <mxCell id="tlVd-pr9q-kPmlgdGaKe-10" value="wort =&lt;br&gt;random.choice(wörter_liste)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="315" y="330" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="tlVd-pr9q-kPmlgdGaKe-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tlVd-pr9q-kPmlgdGaKe-11" target="tlVd-pr9q-kPmlgdGaKe-14">
+        <mxCell id="tlVd-pr9q-kPmlgdGaKe-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tlVd-pr9q-kPmlgdGaKe-11" target="tlVd-pr9q-kPmlgdGaKe-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tlVd-pr9q-kPmlgdGaKe-11" value="for letters in wort.length" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=50;" vertex="1" parent="1">
@@ -36,8 +36,8 @@
         <mxCell id="tlVd-pr9q-kPmlgdGaKe-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tlVd-pr9q-kPmlgdGaKe-14" target="tlVd-pr9q-kPmlgdGaKe-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tlVd-pr9q-kPmlgdGaKe-14" value="print &quot; _ &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="285" y="650" width="230" height="60" as="geometry" />
+        <mxCell id="tlVd-pr9q-kPmlgdGaKe-14" value="print&amp;nbsp; position" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="690" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tlVd-pr9q-kPmlgdGaKe-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tlVd-pr9q-kPmlgdGaKe-16" target="tlVd-pr9q-kPmlgdGaKe-18">
           <mxGeometry relative="1" as="geometry" />
@@ -131,6 +131,12 @@
         </mxCell>
         <mxCell id="tlVd-pr9q-kPmlgdGaKe-47" value="print&lt;br&gt;&quot; Sie haben das Wort erraten \n WINNER&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="475" y="1370" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tlVd-pr9q-kPmlgdGaKe-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tlVd-pr9q-kPmlgdGaKe-49" target="tlVd-pr9q-kPmlgdGaKe-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tlVd-pr9q-kPmlgdGaKe-49" value="position = &quot; _ &quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
